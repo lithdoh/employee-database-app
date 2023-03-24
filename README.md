@@ -1,3 +1,30 @@
+This app allows you to manage a NodeJS database of employees. It makes use of the following Angular Material UI components.
+
+  - Toolbar
+  - Icon
+  - Button
+  - Dialog
+  - FormField
+  - Input
+  - Datepicker
+  - NativeDate
+  - Radio
+  - Select
+  - Table
+  - Paginator
+  - Sort
+  - SnackBar
+
+Create and Update: 
+![Screenshot 2023-03-24 at 12 07 12 PM](https://user-images.githubusercontent.com/100744679/227618797-326bb5d5-e9b2-4ec5-9098-09d2ccb52bd7.jpg)
+
+
+Filtering:
+![Screenshot 2023-03-24 at 12 06 14 PM](https://user-images.githubusercontent.com/100744679/227618692-6645c27d-78a0-4500-befa-0aeeaa88d9e8.jpg)
+
+
+
+
 # EmployeeDatabaseApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
