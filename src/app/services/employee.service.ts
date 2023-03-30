@@ -11,18 +11,18 @@ export class EmployeeService {
   addEmployee(data: any): Observable<any> {
     // Heroku endpoint
     // https://fake-server-app20.herokuapp.com
-    return this._http.post('https://my-json-server.typicode.com/lithdoh/employees-database-json-server-typicode/employees', data);
+    return this._http.post('https://my-json-server.typicode.com/lithdoh/fake-server/employees', data);
   }
 
   updateEmployee(id: number, data: any): Observable<any> {
-    return this._http.put(`https://my-json-server.typicode.com/lithdoh/employees-database-json-server-typicode/employees/${id}`, data);
+    return this._http.put(`https://my-json-server.typicode.com/lithdoh/fake-server/employees/${id}`, data);
   }
 
   getEmployeeList(): Observable<any> {
-    return this._http.get('https://my-json-server.typicode.com/lithdoh/employees-database-json-server-typicode/employees');
+    return this._http.get('https://my-json-server.typicode.com/lithdoh/fake-server/employees');
   }
 
   deleteEmployee(id: number): Observable<any> {
-    return this._http.delete(`https://my-json-server.typicode.com/lithdoh/employees-database-json-server-typicode/employees/${id}`);
+    return this._http.delete(`https://my-json-server.typicode.com/lithdoh/fake-server/employees/${id}`);
   }
 }
